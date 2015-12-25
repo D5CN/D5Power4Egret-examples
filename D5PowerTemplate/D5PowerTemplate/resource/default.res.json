@@ -1,4 +1,20 @@
 {
-	"groups":[],
-	"resources":[]
+	"resources": [
+		{
+			"name": "ui_texture",
+			"type": "image",
+			"url": "ui/uiresource.png"
+		},
+		{
+			"name": "ui_config",
+			"type": "json",
+			"url": "ui/uiresource.json"
+		}
+	],
+	"groups": [
+		{
+			"name": "preload",
+			"keys": "ui_texture,ui_config"
+		}
+	]
 }
