@@ -1,0 +1,34 @@
+{
+  "native": {
+    "path_ignore": []
+  },
+  "publish": {
+    "web": 0,
+    "native": 1,
+    "path": "bin-release"
+  },
+  "egret_version": "2.5.3",
+  "modules": [
+    {
+      "name": "egret"
+    },
+    {
+      "name": "res"
+    },
+    {
+      "name": "dragonbones"
+    },
+    {
+        "name":"d5rpg",
+        "path":"../D5Power/D5Rpg/"
+    },
+    {
+        "name":"d5sdk",
+        "path":"../D5Power/D5SDK/"
+    },
+    {
+        "name":"d5bitmapui",
+        "path":"../D5Power/D5BitmapUI/"
+    }
+  ]
+}
