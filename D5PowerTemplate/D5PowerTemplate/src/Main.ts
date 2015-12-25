@@ -80,6 +80,9 @@ class Main extends egret.Sprite {
         }
     }
     
+	/**
+	 * 准备就绪，开始主程序
+	 */
     private start():void
     {
         // 初始化D5BitmapUI界面风格
